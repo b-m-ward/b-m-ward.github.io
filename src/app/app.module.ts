@@ -8,7 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { TopnavComponent } from './topnav/topnav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -18,8 +17,7 @@ import { MatListModule } from '@angular/material/list';
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    TopnavComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule,
